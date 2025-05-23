@@ -39,9 +39,13 @@ const Quote = () => {
     <Wrapper>
       <Image src={Flower} data-aos="fade-up" />
       <Content data-aos="fade-up">
-        어느 날 내게 찾아온 사람 첫눈에 반해버렸네
+        어느 날 내게 찾아온 사람
         <br />
-        꿈에 그리던 나의 찐 사랑 이제서야 만났네요
+        첫눈에 반해버렸네
+        <br />
+        꿈에 그리던 나의 찐 사랑
+        <br />
+        이제서야 만났네요
         <br />
         이 세상에서 제일 어여쁜 사람
         <br />
