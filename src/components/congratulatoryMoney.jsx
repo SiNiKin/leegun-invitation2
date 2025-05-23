@@ -87,11 +87,11 @@ const CongratulatoryMoney = () => {
         plain
         style={{ marginTop: 0, marginBottom: 32 }}
       >
-        <Title>축하의 마음을 전하세요</Title>
+        <Title>후원의 마음을 전하세요</Title>
       </Divider>
       <Image src={Flower} />
       <Content data-aos="fade-up">
-        축하의 마음을 담아 축의금을 전달해 보세요.
+        축하의 마음을 담아 후원금을 전달해 보세요.
       </Content>
 
       <ButtonWrap>
@@ -101,16 +101,16 @@ const CongratulatoryMoney = () => {
             twoToneColor="#829fe0"
           />
           <br />
-          <SubContent>신랑측 계좌번호 확인</SubContent>
+          <SubContent>후원계좌</SubContent>
         </ContactButton>
-        <ContactButton data-aos="fade-up" onClick={() => setBrideVisible(true)}>
+        {/* <ContactButton data-aos="fade-up" onClick={() => setBrideVisible(true)}>
           <CheckCircleTwoTone
             style={{ fontSize: 64, marginBottom: 16 }}
             twoToneColor="#fe7daf"
           />
           <br />
           <SubContent>신부측 계좌번호 확인</SubContent>
-        </ContactButton>
+        </ContactButton> */}
       </ButtonWrap>
       <Modal
         title={<b>신랑측 계좌번호</b>}
@@ -124,7 +124,7 @@ const CongratulatoryMoney = () => {
         ]}
       >
         <div>
-          <b>부 : {GROOM_FATHER_NAME}</b>
+          <b>이원직 : {GROOM_FATHER_NAME}</b>
           <Divider type="vertical" />
           <CopyToClipboard text={GROOM_FATHER_ACCOUNT_NUMBER}>
             <Button
@@ -136,7 +136,7 @@ const CongratulatoryMoney = () => {
             </Button>
           </CopyToClipboard>
         </div>
-        <div style={{ marginTop: 24, marginBottom: 24 }}>
+        {/* <div style={{ marginTop: 24, marginBottom: 24 }}>
           <b>모 : {GROOM_MOTHER_NAME}</b>
           <Divider type="vertical" />
           <CopyToClipboard text={GROOM_MOTHER_ACCOUNT_NUMBER}>
@@ -148,8 +148,8 @@ const CongratulatoryMoney = () => {
               {GROOM_MOTHER_ACCOUNT_NUMBER}
             </Button>
           </CopyToClipboard>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <b>신랑 {GROOM_NAME}</b>
           <Divider type="vertical" />
           <CopyToClipboard text={GROOM_ACCOUNT_NUMBER}>
@@ -161,7 +161,7 @@ const CongratulatoryMoney = () => {
               {GROOM_ACCOUNT_NUMBER}
             </Button>
           </CopyToClipboard>
-        </div>
+        </div> */}
       </Modal>
       <Modal
         title={<b>신부측 계좌번호</b>}

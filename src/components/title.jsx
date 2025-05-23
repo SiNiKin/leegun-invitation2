@@ -32,9 +32,10 @@ const VideoBackground = styled.video`
 `;
 
 const WeddingInvitation = styled.p`
-  font-size: 0.825rem;
-  opacity: 0.45;
+  font-size: 1.2rem;
+  opacity: 0.7;
   margin-bottom: 16px;
+  font-weight: bold;
 `;
 
 const GroomBride = styled.p`
@@ -53,19 +54,19 @@ const Title = () => {
   return (
     <Layout>
       <TitleWrapper>
-        <WeddingInvitation>WEDDING INVITATION</WeddingInvitation>
-        <GroomBride>
+        <WeddingInvitation>이건의 콘서트</WeddingInvitation>
+        {/* <GroomBride>
           {GROOM_NAME} &#38; {BRIDE_NAME}
-        </GroomBride>
+        </GroomBride> */}
         <Schedule>
           {WEDDING_DATE}
           <br />
           {WEDDING_LOCATION}
         </Schedule>
       </TitleWrapper>
-      <VideoBackground autoPlay loop muted playsInline={true}>
+      {/* <VideoBackground autoPlay loop muted playsInline={true}>
         <source src={BackgroundVideo} type="video/mp4" />
-      </VideoBackground>
+      </VideoBackground> */}
     </Layout>
   );
 };

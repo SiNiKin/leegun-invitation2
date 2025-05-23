@@ -27,7 +27,7 @@ const Title = styled.p`
 `;
 
 const Content = styled.p`
-  font-size: 0.72rem;
+  font-size: 1rem;
   line-height: 1.75;
   opacity: 0.75;
   margin-bottom: 16px;
@@ -59,25 +59,31 @@ const Greeting = () => {
       </Divider>
       <Image data-aos="fade-up" src={Flower} />
       <Content data-aos="fade-up">
-        서로 마주 보며 다져온 사랑을
+        여러분의 신뢰와 믿음으로
         <br />
         <br />
-        이제 함께 한곳을 바라보며 걸어갈 수 있는
+
+        신명나는 노래로 새롭게 출발하게 된
         <br />
         <br />
-        큰 사랑으로 키우고자 합니다.
+
+        건곤감리 가수 이건 입니다.
         <br />
         <br />
-        저희 두 사람이 사랑의 이름으로 지켜나갈 수 있게
+
+        그간 저에 감사의 마음을 담아
         <br />
         <br />
-        앞날을 축복해 주시면 감사하겠습니다.
+        이제놀자. 찐사랑 의 신곡 취입곡을 준비 하였으니
+        <br />
+        <br />
+        참석하시어 자리를 빛내주시면 감사하겠습니다.
       </Content>
-      <GroomBride data-aos="fade-up">
+      {/* <GroomBride data-aos="fade-up">
         {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 장남 {GROOM_NAME}
         <br />
         {BRIDE_FATHER_NAME} · {BRIDE_MOTHER_NAME}의 장녀 {BRIDE_NAME}
-      </GroomBride>
+      </GroomBride> */}
     </Wrapper>
   );
 };

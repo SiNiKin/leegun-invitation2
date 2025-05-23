@@ -47,8 +47,8 @@ const Location = () => {
   const executeScript = () => {
     const scriptTag = document.createElement("script");
     const inlineScript = document.createTextNode(`new daum.roughmap.Lander({
-    "timestamp" : "1652464367301",
-    "key" : "2a8fe",
+		"timestamp" : "1747813771927",
+		"key" : "2o4hp",
     "mapWidth" : "640",
     "mapHeight" : "360"
   }).render();`);
@@ -99,16 +99,14 @@ const Location = () => {
       </Divider>
       <Image src={Flower} />
       <Map
-        id="daumRoughmapContainer1652464367301"
+        id="daumRoughmapContainer1747813771927"
         className="root_daum_roughmap root_daum_roughmap_landing"
       ></Map>
       <Content>
-        대구 수성구 두산동 888-2번지
-        <br />
-        호텔수성 수성스퀘어 3층 피오니홀
+      대전 대덕구 대전로 1348
         <br />
         <br />
-        <Title>버스 이용시</Title>
+        {/* <Title>버스 이용시</Title>
         <br />
         <br />
         410-1, 401 호텔수성 앞 하차
@@ -119,7 +117,7 @@ const Location = () => {
         <Title>지하철 이용시</Title>
         <br />
         <br />
-        3호선 수성못역 하차 (도보 10분)
+        3호선 수성못역 하차 (도보 10분) */}
       </Content>
     </Wrapper>
   );

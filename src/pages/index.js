@@ -22,7 +22,7 @@ import "aos/dist/aos.css";
 const { Footer } = Layout;
 
 const Wrapper = styled.div`
-  background: #efebe9;
+  background:rgb(225, 242, 250);
   background-image: url(${GroovePaper});
   width: 100%;
 `;
@@ -50,8 +50,8 @@ const IndexPage = () => {
         <source src={Song} />
       </audio>
       <Title />
-      <Greeting />
       <Gallery />
+      <Greeting />
       <Location />
       <Quote />
       <CongratulatoryMoney />
