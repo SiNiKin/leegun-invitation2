@@ -113,7 +113,7 @@ const CongratulatoryMoney = () => {
         </ContactButton> */}
       </ButtonWrap>
       <Modal
-        title={<b>신랑측 계좌번호</b>}
+        title={<b>계좌번호</b>}
         visible={groomVisible}
         onOk={() => setGroomVisible(false)}
         onCancel={() => setGroomVisible(false)}
