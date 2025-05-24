@@ -14,6 +14,21 @@ const Wrapper = styled.div`
   padding-top: 42px;
   width: 70%;
   margin: 0 auto;
+
+  /* 🔽 모바일 터치 스크롤 가능하게 */
+  touch-action: pan-y;
+  overscroll-behavior: contain;
+
+  /* 🔽 react-image-gallery 내부 슬라이더가 스크롤 방해하지 않게 */
+  .image-gallery-slide-wrapper {
+    touch-action: pan-y;
+  }
+
+  .image-gallery-slide-wrapper {
+    pointer-events: none;
+    user-select: none;
+    touch-action: pan-y;
+  }
 `;
 
 const Title = styled.p`
