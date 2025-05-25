@@ -55,7 +55,7 @@ const Title = () => {
   return (
     <Layout>
       <TitleWrapper>
-        <WeddingInvitation>가수 이건 신곡 취입 발표회</WeddingInvitation>
+        <WeddingInvitation>가수 이 건(이 원직) 신곡 취입 발표회</WeddingInvitation>
         {/* <GroomBride>
           {GROOM_NAME} &#38; {BRIDE_NAME}
         </GroomBride> */}
