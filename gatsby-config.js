@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `weddingInvitation`,
-    siteUrl: `https://sinikin.github.io/leegun-invitation`,
+    siteUrl: `https://sinikin.github.io/leegun-invitation_2`,
   },
-  pathPrefix: "/leegun-invitation",
+  pathPrefix: "/leegun-invitation_2",
   plugins: ["gatsby-plugin-styled-components"],
 };

@@ -1,4 +1,4 @@
-export const WEDDING_INVITATION_URL = "https://sinikin.github.io/leegun-invitation/";
+export const WEDDING_INVITATION_URL = "https://sinikin.github.io/leegun-invitation_2/";
 export const KAKAOTALK_API_TOKEN = "JavaScript 키 입력";
 export const KAKAOTALK_SHARE_IMAGE =
   "https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_960_720.jpg";
