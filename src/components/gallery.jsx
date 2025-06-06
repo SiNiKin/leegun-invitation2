@@ -26,7 +26,7 @@ const Wrapper = styled.div`
 
   .image-gallery-slide-wrapper {
     pointer-events: none;
-    user-select: none;
+    user-select: none; 
     touch-action: pan-y;
   }
 `;
